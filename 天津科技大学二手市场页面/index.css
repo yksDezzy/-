@@ -1,0 +1,8 @@
+body{background: #eee;}
+.moudle{padding-top: 10px;}
+.div1{padding-top: 20px;}
+.items .header{background: #99FFFF;font-weight: bolder;text-align: center;}
+.items .body ul{list-style: none;-webkit-padding-start:0;}
+.items .body ul li{display: block; margin: 2px;background: #CCC;height: 25px;}
+#service{height: 110px;width:750px;background: lightblue;margin: auto;margin-top: 40px;}
+#information{width: 1150px;background: #ddd;height: 440px;margin-top: 15px;}

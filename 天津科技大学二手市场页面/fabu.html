@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>二手市场</title>
+	<link rel="stylesheet" type="text/css" href="D:\web\bootstrap-3.3.7-dist\css\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript">
+		window.onload=function()
+		{
+			var oBtn=document.getElementById('btn111');
+			oBtn.onclick=function()
+			{
+				alert('您提交的信息正在审核！');
+			};
+		};
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="moudle">
+			<div class="row">
+				
+				<div class="col-xs-8 col-lg-8 col-md-8 col-sm-8">
+				    <form role="form" class="form-inline" method="post" action="">
+							
+						<div class="form-group">
+						    <label for="">学号:</label>
+						    <input type="email" class="form-control" id="" placeholder="请输入学号">
+						</div>
+
+
+						<div class="form-group">
+						    <label for="">密码:</label>
+						    <input type="email" class="form-control" id="" placeholder="请输入密码">
+						</div>
+
+
+						<button type="submit" class="btn btn-success btn-sm">登录</button>
+					</form>
+				</div>
+
+				
+				
+				<div class="col-xs-4 col-lg-4 col-md-4 col-sm-4">
+					天津科技大学二手市场————共建和谐，提倡节约！
+			    </div>
+			</div>
+		</div>
+
+		<div class="moudle">
+			
+			<div class="row">
+                
+            	    <div class="col-xs-9 col-lg-9 col-md-9 col-sm-9">
+            	    	<div class="row">
+            	    		<div class="col-xs-2 col-lg-2 col-md-2 col-sm-2">
+            			        <img class="img-responsive" alt="logo" src="img/MarketLogo.png">
+            		        </div>
+            		        <div class="col-xs-10 col-lg-10 col-md-10 col-sm-10">
+            			        <img class="img-responsive" alt="天津科技大学二手市场" src="img/mk_00.jpg">
+            		        </div>
+            	        </div> 
+            	    </div>
+                
+
+
+                <div class="col-xs-3 col-lg-3 col-md-3 col-sm-3">
+            	    <div class="row">
+            		    <div class="col-xs-6 col-lg-6 col-md-6 col-sm-6">
+            			    <div class="row">
+            			    	<a href="lianxi.html">
+            			    		<span style="font-size: 70px;color: black" class="glyphicon glyphicon-earphone"></span>
+            			    	</a>
+            			    </div>
+            			    <div class="row div1"><a href="lianxi.html">联系客服</a> </div>
+            		    </div>
+            		    <div class="col-xs-6 col-lg-6 col-md-6 col-sm-6">
+            			    <div class="row">
+            			    	<a href="fabu.html">
+            			    		<span style="font-size: 70px;color: black" class="glyphicon glyphicon-edit"></span>
+            			    	</a>
+            			    </div>
+            			    <div class="row div1"><a href="fabu.html">发布消息</a></div>
+            		    </div>
+            	    </div>
+                </div>
+            </div>
+		</div>
+
+
+		<div class="moudle">
+			<div class="row">
+				<div class="text-center">
+					<a href="secondhand.html">首页</a>
+				</div>
+			</div>
+		</div>
+       
+			<div id="information" class="row">
+				<form role="form" method="post">
+					<div class="form-group">
+						<label for="Gname">商品名称：</label>
+						<input type="text" placeholder="请输入商品名称" id="Gname">
+					</div>
+
+					<div class="form-group">
+						<label for="Tel">联系方式：</label>
+						<input type="text" placeholder="请输入您的联系方式" id="Tel">
+					</div>
+
+
+					
+					<div class="form-group">
+						是否在保修期并有发票:
+						   <label class="radio-inline">
+						       <input type="radio"  value="yes" name="sex">是
+						   </label>
+						   <label class="radio-inline">
+						       <input type="radio"  value="no" name="sex">否
+						   </label>
+					</div>
+					
+
+					<div class="form-group">
+						所在校区:
+						<label class="radio-inline">
+						   <input type="radio"  value="td" name="location">泰达
+					    </label>
+						<label class="radio-inline">
+						    <input type="radio"  value="hx" name="location">河西
+						</label>
+					</div>
+
+					<div class="form-group">
+						<label for="price">商品价格：</label>
+						<input type="text" id="price" placeholder="请输入商品价格" name="">
+					</div>
+					<div class="form-group">
+						是否同意商议价格:
+						<label class="radio-inline">
+							<input type="radio" value="y" name="yes">是
+						</label>
+						<label class="radio-inline">
+							<input type="radio" value="n" name="no">否
+						</label>
+					</div>
+
+					<div class="form-group">
+						请对商品进行进一步描述：<br>
+						<textarea rows="5" style="width: 450px;" placeholder="进一步描述"></textarea>
+					</div>
+
+					<button id="btn111" class="btn btn-sm btn-success subsub" type="button">提交</button>
+					<button class="btn btn-sm btn-warning" type="button">重置</button>
+
+
+				</form>
+			</div>
+	</div>
+
+</body>
+</html>
